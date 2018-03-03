@@ -1,3 +1,9 @@
 <h1>
   {{title}}
 </h1>
+<div class="album">
+    <div *ngFor="let item of album" class="{{ item.city }}">
+        <img src="{{ item.imageURL }}" alt="{{item.city}}">
+        <p><i> {{ item.description }} </i></p>
+    </div>
+</div>

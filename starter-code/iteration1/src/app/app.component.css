@@ -1,0 +1,13 @@
+.album div img {
+    height: 400px;
+    width: auto;
+}
+
+.album p {
+    text-align: center;
+}
+
+.album {
+    display: flex;
+    justify-content: space-around;
+}
